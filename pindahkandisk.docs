@@ -1,0 +1,15 @@
+//Pindahkan disk dari A ke C
+
+function howManyStep(discs){
+    if (disk1 === "A") {
+        move = "Disk 1 dipindahkan dari A ke B";
+    } else if (disk2 === "A") {
+        move = "Disk 2 dipindahkan dari A ke B";
+    } else if (disk3 === "A") {
+        move = "Disk 3 dipindahkan dari A ke C";
+    } else if (disk2 === "B") {
+        move = "Disk 2 dipindahkan dari B ke C";
+    } else if (disk1 === "B") {
+        move = "Disk 1 dipindahkan dari B ke C";
+    }
+}
